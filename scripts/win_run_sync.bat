@@ -18,7 +18,7 @@ pause
 
 :: 2. Run Pentaho Job
 call "D:\pentaho\pdi-ce-11.0.0.0-237\data-integration\Kitchen.bat" ^
-/file:"D:\pentaho\project\emi-after-sales\jobs\job_sync_wrs_aftersales.kjb" ^
+/file:"D:\pentaho\project\emi-after-sales\emi-after-sales-pentaho\jobs\job_sync_wrs_aftersales.kjb" ^
 /param:last_kd_customer="0" ^
 /param:last_kd_kpi="0" ^
 /param:last_no_faktur_request="0" ^
