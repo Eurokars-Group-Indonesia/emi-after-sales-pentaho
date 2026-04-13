@@ -1,0 +1,15 @@
+#######################################################################
+WARNING:  no libwebkitgtk-1.0 detected, some features will be unavailable
+    Consider installing the package with apt-get or yum.
+    e.g. 'sudo apt-get install libwebkitgtk-1.0-0'
+#######################################################################
+Picked up JAVA_TOOL_OPTIONS: -Xms512m -Xmx1024m
+2026-04-12 16:59:25.017 - Kitchen - Logging is at level : Basic
+2026-04-12 16:59:25.032 - Kitchen - Start of run.
+Processing stopped because of an error: 
+Unable to load the job from XML file [/opt/pentaho/etl/jobs/job_sync_aftersales.kjb]
+
+File [file:///opt/pentaho/etl/jobs/job_sync_aftersales.kjb] does not exists.
+
+
+ERROR: Kitchen can't continue because the job couldn't be loaded.

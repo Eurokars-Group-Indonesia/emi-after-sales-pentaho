@@ -1,0 +1,319 @@
+2026-04-10 03:31:02.348 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 03:31:02.456 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 03:31:02.468 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to run job job_sync_aftersales. The tr_sync_tblmodel has an error. The transformation path /app/pentaho/transformation/tr_sync_tblmodel.ktr is invalid, and will not run successfully.
+2026-04-10 03:31:02.469 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleXMLException: 
+The transformation path /app/pentaho/transformation/tr_sync_tblmodel.ktr is invalid, and will not run successfully.
+
+	at org.pentaho.di.trans.TransMeta.<init>(TransMeta.java:3055)
+	at org.pentaho.di.base.MetaFileLoaderImpl.getMetaForEntry(MetaFileLoaderImpl.java:167)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1321)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:708)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 03:31:02.470 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 03:31:02.470 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 03:49:01.942 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 03:49:02.049 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 03:49:02.059 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to run job job_sync_aftersales. The tr_sync_tblmodel has an error. The transformation path /etl/transformation/tr_sync_tblmodel.ktr is invalid, and will not run successfully.
+2026-04-10 03:49:02.060 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleXMLException: 
+The transformation path /etl/transformation/tr_sync_tblmodel.ktr is invalid, and will not run successfully.
+
+	at org.pentaho.di.trans.TransMeta.<init>(TransMeta.java:3055)
+	at org.pentaho.di.base.MetaFileLoaderImpl.getMetaForEntry(MetaFileLoaderImpl.java:167)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1321)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:708)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 03:49:02.061 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 03:49:02.061 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 03:52:20.048 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 03:52:20.153 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 03:52:20.163 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to run job job_sync_aftersales. The tr_sync_tblmodel has an error. The transformation path /opt/pentaho/etl/transformation/tr_sync_tblmodel.ktr is invalid, and will not run successfully.
+2026-04-10 03:52:20.164 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleXMLException: 
+The transformation path /opt/pentaho/etl/transformation/tr_sync_tblmodel.ktr is invalid, and will not run successfully.
+
+	at org.pentaho.di.trans.TransMeta.<init>(TransMeta.java:3055)
+	at org.pentaho.di.base.MetaFileLoaderImpl.getMetaForEntry(MetaFileLoaderImpl.java:167)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1321)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:708)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 03:52:20.164 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 03:52:20.165 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 03:58:19.967 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 03:58:20.089 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 03:58:20.149 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Using run configuration [Pentaho local]
+2026-04-10 03:58:20.160 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-10 03:58:20.173 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 03:58:20.173 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table input]
+2026-04-10 03:58:20.178 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 03:58:20.178 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table output]
+2026-04-10 03:58:20.178 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table input.0] failed to initialize!
+2026-04-10 03:58:20.178 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table output.0] failed to initialize!
+2026-04-10 03:58:20.179 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished reading query, closing connection
+2026-04-10 03:58:20.179 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to prepare for execution of the transformation
+2026-04-10 03:58:20.180 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleException: 
+We failed to initialize at least one step.  Execution can not begin!
+
+
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:1338)
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:803)
+	at org.pentaho.di.trans.Trans.execute(Trans.java:791)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:1187)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 03:58:20.181 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 03:58:20.181 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 03:59:04.348 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 03:59:04.447 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 03:59:04.498 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Using run configuration [Pentaho local]
+2026-04-10 03:59:04.509 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-10 03:59:04.520 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 03:59:04.520 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table input]
+2026-04-10 03:59:04.522 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 03:59:04.522 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table output]
+2026-04-10 03:59:04.522 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table input.0] failed to initialize!
+2026-04-10 03:59:04.522 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table output.0] failed to initialize!
+2026-04-10 03:59:04.523 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished reading query, closing connection
+2026-04-10 03:59:04.523 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to prepare for execution of the transformation
+2026-04-10 03:59:04.524 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleException: 
+We failed to initialize at least one step.  Execution can not begin!
+
+
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:1338)
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:803)
+	at org.pentaho.di.trans.Trans.execute(Trans.java:791)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:1187)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 03:59:04.525 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 03:59:04.525 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 03:59:51.837 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 03:59:51.940 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 03:59:51.991 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Using run configuration [Pentaho local]
+2026-04-10 03:59:52.003 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-10 03:59:52.014 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 03:59:52.015 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table input]
+2026-04-10 03:59:52.017 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 03:59:52.024 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table output]
+2026-04-10 03:59:52.024 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table input.0] failed to initialize!
+2026-04-10 03:59:52.024 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table output.0] failed to initialize!
+2026-04-10 03:59:52.025 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished reading query, closing connection
+2026-04-10 03:59:52.025 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to prepare for execution of the transformation
+2026-04-10 03:59:52.026 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleException: 
+We failed to initialize at least one step.  Execution can not begin!
+
+
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:1338)
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:803)
+	at org.pentaho.di.trans.Trans.execute(Trans.java:791)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:1187)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 03:59:52.027 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 03:59:52.027 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 04:04:23.052 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 04:04:23.159 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 04:04:23.209 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Using run configuration [Pentaho local]
+2026-04-10 04:04:23.219 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-10 04:04:23.230 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 04:04:23.231 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table input]
+2026-04-10 04:04:23.233 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 04:04:23.233 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table output]
+2026-04-10 04:04:23.233 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table input.0] failed to initialize!
+2026-04-10 04:04:23.233 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table output.0] failed to initialize!
+2026-04-10 04:04:23.234 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished reading query, closing connection
+2026-04-10 04:04:23.234 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to prepare for execution of the transformation
+2026-04-10 04:04:23.235 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleException: 
+We failed to initialize at least one step.  Execution can not begin!
+
+
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:1338)
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:803)
+	at org.pentaho.di.trans.Trans.execute(Trans.java:791)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:1187)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 04:04:23.236 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 04:04:23.236 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 04:10:37.341 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 04:10:37.448 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 04:10:37.499 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Using run configuration [Pentaho local]
+2026-04-10 04:10:37.511 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-10 04:10:37.523 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 04:10:37.524 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table input]
+2026-04-10 04:10:37.525 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 04:10:37.525 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table output]
+2026-04-10 04:10:37.526 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table input.0] failed to initialize!
+2026-04-10 04:10:37.526 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table output.0] failed to initialize!
+2026-04-10 04:10:37.527 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished reading query, closing connection
+2026-04-10 04:10:37.527 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to prepare for execution of the transformation
+2026-04-10 04:10:37.528 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleException: 
+We failed to initialize at least one step.  Execution can not begin!
+
+
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:1338)
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:803)
+	at org.pentaho.di.trans.Trans.execute(Trans.java:791)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:1187)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 04:10:37.529 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 04:10:37.529 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 04:10:43.666 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 04:10:43.767 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 04:10:43.830 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Using run configuration [Pentaho local]
+2026-04-10 04:10:43.843 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-10 04:10:43.855 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 04:10:43.855 ERROR <init of Table input.0 (Thread-9)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table input]
+2026-04-10 04:10:43.857 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  !BaseDatabaseStep.Init.ConnectionMissing!
+2026-04-10 04:10:43.858 ERROR <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Error initializing step [Table output]
+2026-04-10 04:10:43.858 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table input.0] failed to initialize!
+2026-04-10 04:10:43.858 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Step [Table output.0] failed to initialize!
+2026-04-10 04:10:43.859 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished reading query, closing connection
+2026-04-10 04:10:43.859 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unable to prepare for execution of the transformation
+2026-04-10 04:10:43.860 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleException: 
+We failed to initialize at least one step.  Execution can not begin!
+
+
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:1338)
+	at org.pentaho.di.trans.Trans.prepareExecution(Trans.java:803)
+	at org.pentaho.di.trans.Trans.execute(Trans.java:791)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:1187)
+	at org.pentaho.di.job.Job.execute(Job.java:705)
+	at org.pentaho.di.job.Job.execute(Job.java:853)
+	at org.pentaho.di.job.Job.execute(Job.java:518)
+	at org.pentaho.di.job.Job.run(Job.java:397)
+
+2026-04-10 04:10:43.861 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 04:10:43.861 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished
+2026-04-10 04:34:06.169 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Start of job execution
+2026-04-10 04:34:06.263 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Starting entry [tr_sync_tblmodel]
+2026-04-10 04:34:06.315 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Using run configuration [Pentaho local]
+2026-04-10 04:34:06.326 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-10 04:34:06.349 INFO  <init of Table output.0 (Thread-11)> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Connected to database [emi_after_sales] (commit=500)
+2026-04-10 04:34:06.360 ERROR <tr_sync_tblmodel - Table output> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unexpected error
+2026-04-10 04:34:06.361 ERROR <tr_sync_tblmodel - Table output> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Error occurred while trying to connect to the database
+
+Driver class 'com.mysql.jdbc.Driver' could not be found, make sure the 'MySQL' driver (jar file) is installed.
+com.mysql.jdbc.Driver
+
+
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:469)
+	at org.pentaho.di.core.database.Database.connect(Database.java:395)
+	at org.pentaho.di.core.database.Database.connect(Database.java:367)
+	at org.pentaho.di.trans.step.BaseDatabaseStep.connectToDatabase(BaseDatabaseStep.java:133)
+	at org.pentaho.di.trans.step.BaseDatabaseStep.beforeStartProcessing(BaseDatabaseStep.java:108)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:48)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Driver class 'com.mysql.jdbc.Driver' could not be found, make sure the 'MySQL' driver (jar file) is installed.
+com.mysql.jdbc.Driver
+
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:553)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:454)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:533)
+	... 7 more
+
+2026-04-10 04:34:06.362 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Errors detected!
+2026-04-10 04:34:06.365 ERROR <tr_sync_tblmodel - Table output> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unexpected error rolling back the database connection.
+2026-04-10 04:34:06.366 ERROR <tr_sync_tblmodel - Table output> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Unable to get database metadata from this database connection
+
+Error connecting to database [emi_after_sales]
+
+
+	at org.pentaho.di.core.database.Database.getDatabaseMetaData(Database.java:3118)
+	at org.pentaho.di.core.database.Database.rollback(Database.java:904)
+	at org.pentaho.di.core.database.Database.rollback(Database.java:896)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.dispose(TableOutput.java:602)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:90)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error connecting to database [emi_after_sales]
+
+	at org.pentaho.di.core.database.Database.getDatabaseMetaData(Database.java:3112)
+	... 5 more
+
+2026-04-10 04:34:06.367 INFO  <tr_sync_tblmodel - Table output> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2026-04-10 04:34:06.367 WARN  <tr_sync_tblmodel - Table output> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Transformation detected one or more steps with errors.
+2026-04-10 04:34:06.367 WARN  <tr_sync_tblmodel - Table output> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Transformation is killing the other steps!
+2026-04-10 04:34:06.671 ERROR <tr_sync_tblmodel - Table input> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Unexpected error
+2026-04-10 04:34:06.672 ERROR <tr_sync_tblmodel - Table input> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Error occurred while trying to connect to the database
+
+Connection failed. Verify all connection parameters and confirm that the appropriate driver is installed.
+The connection attempt failed.
+
+
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:469)
+	at org.pentaho.di.core.database.Database.connect(Database.java:395)
+	at org.pentaho.di.core.database.Database.connect(Database.java:367)
+	at org.pentaho.di.trans.step.BaseDatabaseStep.connectToDatabase(BaseDatabaseStep.java:133)
+	at org.pentaho.di.trans.step.BaseDatabaseStep.beforeStartProcessing(BaseDatabaseStep.java:108)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:48)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Connection failed. Verify all connection parameters and confirm that the appropriate driver is installed.
+The connection attempt failed.
+
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:618)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:454)
+	... 6 more
+Caused by: org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:253)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at java.sql/java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(Unknown Source)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:615)
+	... 7 more
+Caused by: java.net.UnknownHostException: null
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	... 14 more
+
+2026-04-10 04:34:06.673 INFO  <tr_sync_tblmodel - Table input> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished reading query, closing connection
+2026-04-10 04:34:06.673 INFO  <tr_sync_tblmodel - Table input> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2026-04-10 04:34:06.677 ERROR <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Errors detected!
+2026-04-10 04:34:06.678 INFO  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-10 04:34:06.678 WARN  <tr_sync_tblmodel - Table input> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Transformation detected one or more steps with errors.
+2026-04-10 04:34:06.679 WARN  <tr_sync_tblmodel - Table input> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Transformation is killing the other steps!
+2026-04-10 04:34:06.679 WARN  <Thread-6> [/opt/pentaho/etl/job/job_sync_wrs_aftersales.kjb]  Job execution finished

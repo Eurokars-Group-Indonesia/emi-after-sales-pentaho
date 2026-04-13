@@ -1,0 +1,59 @@
+#######################################################################
+WARNING:  no libwebkitgtk-1.0 detected, some features will be unavailable
+    Consider installing the package with apt-get or yum.
+    e.g. 'sudo apt-get install libwebkitgtk-1.0-0'
+#######################################################################
+Picked up JAVA_TOOL_OPTIONS: -Xms512m -Xmx1024m
+2026-04-12 17:07:32.171 - Kitchen - Logging is at level : Basic
+2026-04-12 17:07:32.180 - Kitchen - Start of run.
+2026-04-12 17:07:33.649 - job_sync_aftersales - Start of job execution
+2026-04-12 17:07:33.757 - job_sync_aftersales - Starting entry [tr_sync_tblmodel]
+2026-04-12 17:07:33.817 - tr_sync_tblmodel - Using run configuration [Pentaho local]
+2026-04-12 17:07:33.829 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2026-04-12 17:07:33.830 - tr_sync_tblmodel - Dispatching started for transformation [tr_sync_tblmodel]
+2026-04-12 17:07:33.851 - Table output.0 - Connected to database [emi_after_sales] (commit=500)
+2026-04-12 17:07:34.220 - Table input.0 - Finished reading query, closing connection
+2026-04-12 17:07:34.225 - Table input.0 - Finished processing (I=58, O=0, R=0, W=58, U=0, E=0)
+2026-04-12 17:07:34.227 - Select values.0 - Finished processing (I=0, O=0, R=58, W=58, U=0, E=0)
+2026-04-12 17:07:34.451 - Table output.0 - Finished processing (I=0, O=58, R=58, W=58, U=0, E=0)
+2026-04-12 17:07:34.457 - job_sync_aftersales - Starting entry [tr_sync_tbldealer]
+2026-04-12 17:07:34.474 - tr_sync_tbldealer - Using run configuration [Pentaho local]
+2026-04-12 17:07:34.475 - tr_sync_tbldealer - Dispatching started for transformation [tr_sync_tbldealer]
+2026-04-12 17:07:34.477 - Table output.0 - Connected to database [emi_after_sales] (commit=500)
+2026-04-12 17:07:34.497 - Table input.0 - Finished reading query, closing connection
+2026-04-12 17:07:34.498 - Table input.0 - Finished processing (I=72, O=0, R=0, W=72, U=0, E=0)
+2026-04-12 17:07:34.501 - Select values.0 - Finished processing (I=0, O=0, R=72, W=72, U=0, E=0)
+2026-04-12 17:07:34.543 - Table output.0 - Finished processing (I=0, O=72, R=72, W=72, U=0, E=0)
+2026-04-12 17:07:34.546 - job_sync_aftersales - Starting entry [tr_sync_tblcategory_vehicle]
+2026-04-12 17:07:34.562 - tr_sync_tblcategory_vehicle - Using run configuration [Pentaho local]
+2026-04-12 17:07:34.562 - tr_sync_tblcategory_vehicle - Dispatching started for transformation [tr_sync_tblcategory_vehicle]
+2026-04-12 17:07:34.564 - Table output.0 - Connected to database [emi_after_sales] (commit=500)
+2026-04-12 17:07:34.576 - Table input.0 - Finished reading query, closing connection
+2026-04-12 17:07:34.579 - Table input.0 - Finished processing (I=14, O=0, R=0, W=14, U=0, E=0)
+2026-04-12 17:07:34.580 - Select values.0 - Finished processing (I=0, O=0, R=14, W=14, U=0, E=0)
+2026-04-12 17:07:34.605 - Table output.0 - Finished processing (I=0, O=14, R=14, W=14, U=0, E=0)
+2026-04-12 17:07:34.607 - job_sync_aftersales - Starting entry [tr_sync_tblcategory_2_vehicle]
+2026-04-12 17:07:34.613 - tr_sync_tblcategory_2_vehicle - ERROR (version 11.0.0.0-237, build 0.0 from 2025-12-30 10.16.49 by buildguy) : Unable to run job job_sync_aftersales. The tr_sync_tblcategory_2_vehicle has an error. The transformation path /opt/pentaho/etl/transformation/tr_sync_tblcategory_2_vehicle.ktr is invalid, and will not run successfully.
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - ERROR (version 11.0.0.0-237, build 0.0 from 2025-12-30 10.16.49 by buildguy) : org.pentaho.di.core.exception.KettleXMLException: 
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - The transformation path /opt/pentaho/etl/transformation/tr_sync_tblcategory_2_vehicle.ktr is invalid, and will not run successfully.
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.trans.TransMeta.<init>(TransMeta.java:3055)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.base.MetaFileLoaderImpl.getMetaForEntry(MetaFileLoaderImpl.java:167)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1321)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:708)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.Job.execute(Job.java:705)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.Job.execute(Job.java:853)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.Job.execute(Job.java:853)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.Job.execute(Job.java:853)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.Job.execute(Job.java:853)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.Job.execute(Job.java:518)
+2026-04-12 17:07:34.614 - tr_sync_tblcategory_2_vehicle - 	at org.pentaho.di.job.Job.run(Job.java:397)
+2026-04-12 17:07:34.615 - job_sync_aftersales - Finished job entry [tr_sync_tblcategory_2_vehicle] (result=[false])
+2026-04-12 17:07:34.615 - job_sync_aftersales - Finished job entry [tr_sync_tblcategory_vehicle] (result=[false])
+2026-04-12 17:07:34.615 - job_sync_aftersales - Finished job entry [tr_sync_tbldealer] (result=[false])
+2026-04-12 17:07:34.616 - job_sync_aftersales - Finished job entry [tr_sync_tblmodel] (result=[false])
+2026-04-12 17:07:34.616 - job_sync_aftersales - Job execution finished
+2026-04-12 17:07:34.618 - Kitchen - ERROR (version 11.0.0.0-237, build 0.0 from 2025-12-30 10.16.49 by buildguy) : Finished with errors
+2026-04-12 17:07:34.618 - Kitchen - Finished!
+2026-04-12 17:07:34.618 - Kitchen - Start=2026/04/12 17:07:33.646, Stop=2026/04/12 17:07:34.618
+2026-04-12 17:07:34.618 - Kitchen - Processing ended after 0 seconds.
